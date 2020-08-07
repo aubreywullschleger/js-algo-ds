@@ -26,3 +26,5 @@ Real Intro to Big O
         - the magnitude doesn't matter, ex: in our Add1 we had 5n + 2 - 5 operation for each n plus 2 constant operations, it's still considered O(n)
       - countUpAndDown (snippet) has two separate for loops without other operations inside, it's O(n)
       - printAllPairs (snippet) (nested loops) outer loop makes it O(n), inner loop is also O(n), O(n) operation inside an O(n) operation makes it O(n*n) (O(n^2) o of n squared), as n grows, the runtime grows at the rate of n**2
+
+Simplifying Big O Expressions
