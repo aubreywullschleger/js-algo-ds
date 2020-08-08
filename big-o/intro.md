@@ -28,3 +28,11 @@ Real Intro to Big O
       - printAllPairs (snippet) (nested loops) outer loop makes it O(n), inner loop is also O(n), O(n) operation inside an O(n) operation makes it O(n*n) (O(n^2) o of n squared), as n grows, the runtime grows at the rate of n**2
 
 Simplifying Big O Expressions
+- rules of thumb (which are consequences of the definition of big o notation, we want the broadest big picture view of time complexity, these don't always work but are a good starting point):
+  1. Arithmetic operations are constant
+  2. variable assignment is constant
+  3. accessing elements in an array (by index) or object (by key) is constant
+  4. in a loop, the complexity is the length of the loop times the complexity of whatever happens inside the loop
+    - Note:
+      - constants don't matter, ex: O(2n) --> O(n), O(500) --> O(1), O(13n^2) --> O(n^2)
+      - smaller terms don't matter, ex: O(n + 10) --> O(n), O(1000n + 50) --> O(n), O(n^2 + 5n + 8) --> O(n^2)
