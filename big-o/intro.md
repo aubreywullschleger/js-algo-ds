@@ -12,6 +12,7 @@ Why do we need Big-O Notation??
 Real Intro to Big O
   - Big O Notation is a way to formalize fuzzy counting
   - it allows us to talk formally about how the runtime of an algorithm grows as the inputs grow
+    - this is __time complexity__: how can we analyze the rentime of an algorithm as the size of the inputs increases
   - describing how the input size changes the runtime trend
   - Definition:
     - We say that an algorithm is O(f(n)) (said as big o f of n) if the number of simple operations the computer has to do is eventually less than a constant time f(n), as n increases
@@ -36,3 +37,14 @@ Simplifying Big O Expressions
     - Note:
       - constants don't matter, ex: O(2n) --> O(n), O(500) --> O(1), O(13n^2) --> O(n^2)
       - smaller terms don't matter, ex: O(n + 10) --> O(n), O(1000n + 50) --> O(n), O(n^2 + 5n + 8) --> O(n^2)
+
+Space Complexity
+- __space complexity__: analyzing the space that an algorithm takes up as the inputs increase; how much additional memory do we need to allocat in order to run the code in our algorithm?
+  - (not sure what name there is for this space complexity, but) as n grows we assume the inputs grow (we will not focus on this one)
+  - __auxiliary space complexity__: refers to space required by the algorithm, not including space taken up by the inputs (we will focus on this one, which focuses on what is happening inside the algorithm)
+  
+- Rules of thumb:
+  1. most primitives (bools, nums, undefined, null) are constant space
+  2. Strings require O(n) space (where n is the string length)
+  3. reference types are generally O(n), where n is the length (for arrays) or the number of keys (for objects)
+   - though for a function that loops through an array, keeps track of a total variable and adds each number in the array to the total would have O(1) space complexity, constant (as the only space would be the total and the loop start, so 2 constants)
