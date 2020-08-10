@@ -1,4 +1,4 @@
-Timing Code
+# Timing Code
 - we can compare functions (code) to determine which is better, but what does better mean?
   - when we're comparing code we look for speed, memory usage, readability, and succinctness/minimal characters
 

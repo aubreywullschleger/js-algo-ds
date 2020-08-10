@@ -1,7 +1,7 @@
 If we don't compare functions via time, what should we use?
 - instead of counting second, we can count the number of simple operations our computer has to perform
 
-Counting Operations
+# Counting Operations
 - in our example (Add2 snippet) we have:
   - multiplication
   - addition

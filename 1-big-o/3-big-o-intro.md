@@ -9,7 +9,7 @@ Why do we need Big-O Notation??
     - useful for talking about trade-offs between approaches
     - identifying inefficient code/applications
 
-Real Intro to Big O
+# Real Intro to Big O
   - Big O Notation is a way to formalize fuzzy counting
   - it allows us to talk formally about how the runtime of an algorithm grows as the inputs grow
     - this is __time complexity__: how can we analyze the rentime of an algorithm as the size of the inputs increases
