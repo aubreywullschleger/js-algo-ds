@@ -48,3 +48,27 @@ Space Complexity
   2. Strings require O(n) space (where n is the string length)
   3. reference types are generally O(n), where n is the length (for arrays) or the number of keys (for objects)
    - though for a function that loops through an array, keeps track of a total variable and adds each number in the array to the total would have O(1) space complexity, constant (as the only space would be the total and the loop start, so 2 constants)
+
+Logarithms
+  - What's a logarithm?
+    -  the inverse of exponentiation
+       -  logbase(value) = exponent --> base ^ exponent = value
+       -  ex: logbase2(8) = 3 (read as log base 2 of 8 equals 3) --> 2^3 = 8
+          -  calculating 2 to what power equals 8
+    - we are thinking bigger picture/fuzzy graph (as n gets closer to infinity) so we'll omit the base, log === logbase2, we care about the general trend
+    - log by itself is not a mathmatical operation, it needs a base, log is shorthand
+    - rule of thumb for time/space complexity:
+      1. the logrithm of a number roughly measures the number of times you can divide that number by 2 before you get a value that's less than or equal to one
+        - ex: 8/2 is greater than 1, 4/2 is greater than 1, 2/2 is one so we divided 3 times, the answer is 3
+        - if you have O(log n) it's great
+        - if you have O(nlog n) it's better than quadratic time complexity (O(n^2)) but not as good as O(n) 
+        - we will see this in certain searching algos 
+        - efficient sorting algorithms involve logarithms
+        - recursion sometimes involves lagarithmic space complexity
+        - 
+Review:
+  - to analyze the performance of an algorithm, we use Big O Notation
+  - Big O Notation can give us a high level understanding of the time or space complexity of an algorithm
+  - Big O Notation doesn't care about precision, only about general trends (linear, quadratic, constant, etc)
+  - the time or space complexity (as measured by Big O) depends only on the algorithm, not on the hardware used to run the algorithm
+  - Big O Notation is everywhere, so we need to get a lot of practice!
