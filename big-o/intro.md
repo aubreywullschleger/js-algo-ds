@@ -65,7 +65,7 @@ Logarithms
         - we will see this in certain searching algos 
         - efficient sorting algorithms involve logarithms
         - recursion sometimes involves lagarithmic space complexity
-        - 
+  
 Review:
   - to analyze the performance of an algorithm, we use Big O Notation
   - Big O Notation can give us a high level understanding of the time or space complexity of an algorithm
