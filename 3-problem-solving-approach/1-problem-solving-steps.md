@@ -12,8 +12,9 @@
     - devise a plan for solving problems
     - master common problem solving patterns
   
-  - ### Problem solving strategies:
+- ### Problem solving strategies:
     - most of these strategies are from _How To Solve It_ by George Polya
+    - check snippet: count each char (or ./count-each-char.js) 
     1. Understand the Problem
        1. Can I restate the problem in my own words?
        2. What are the inputs that go into the problem?
@@ -45,6 +46,21 @@
          2. temporarily ignore that difficulty
          3. write a simplified solution
          4. incorporate that difficulty back in 
-    5. Look Back and Refactor 
+    5. Look Back and Refactor
+       - refactoring questions:
+         - Can you check the result?
+           - make sure code works
+         - Can you derive the result differently?
+           - different solutions/approaches not first thought of
+         - Can you understand it at a glance?
+           - how intuitive is your solution? 
+         - Can you use the result or method for some other problem?
+           - is this problem similar to other problems you've encountered/can it be used for some other problem?
+         - Can you improve the performance of your solution?
+           - how can we make time/space complexity better?
+         - Can you think of other ways to refactor?
+           - does it follow company guidelines/style guide? does it follow language conventions? formatting?
+         - How have other people solved this problem? 
+           - in an interview (at the end) ask what other approaches candidates took/what did I miss/how have you seen people solve this?
 
 ## Strategies/Archtypes - specific (named) strategies
