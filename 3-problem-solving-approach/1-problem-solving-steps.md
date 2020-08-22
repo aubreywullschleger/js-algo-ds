@@ -62,5 +62,3 @@
            - does it follow company guidelines/style guide? does it follow language conventions? formatting?
          - How have other people solved this problem? 
            - in an interview (at the end) ask what other approaches candidates took/what did I miss/how have you seen people solve this?
-
-## Strategies/Archtypes - specific (named) strategies
