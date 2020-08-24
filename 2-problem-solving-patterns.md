@@ -22,3 +22,4 @@ How do you improve?
   - usually O(n) time
   - Example problem:
     -  see Same snippet (or ./frequency-counter.js)
+ - Idea behind frequency counter - usually use an object to construct a profile/classify/a way of breaking down the contents of an array/string/linear structure and then able to compare that object to another object that was constructed from string/array
