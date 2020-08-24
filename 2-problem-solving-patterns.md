@@ -14,3 +14,11 @@ How do you improve?
     - greedy algorithms
     - backtracking
     - and many more!
+  
+### Frequency Counters
+  - not called anything offically
+  - this pattern uses objects or sets to collect values/frequencies of values
+  - this can often avoid the need for nested loops or O(n^2) quadratic time operations with arrays/strings
+  - usually O(n) time
+  - Example problem:
+    -  see Same snippet (or ./frequency-counter.js)
