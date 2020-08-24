@@ -28,7 +28,7 @@
 
 // function charCount(str) {
 //     // do something
-//     // return an object with keys that are lowercase alphanumeric characters in the string; 
+//     // return an object with keys that are lowercase alphanumeric characters in the string;
 //     // values should be the counts for those characters
 // }
 
@@ -55,16 +55,16 @@
 
 //         // convert to lowercase
 //         let char = str[i].toLowerCase()
-        
+
 //         // if lowercase char is a key in obj, add 1 to count
 //         if(charCounts[char] > 0) {
 //             charCounts[char]++
-//         } 
+//         }
 //         // if lc char is not in obj, add it and set value to 1
 //         else {
 //             charCounts[char] = 1
-//         } 
-//     }           
+//         }
+//     }
 //     // return object at end
 //     return charCounts
 // }
@@ -75,41 +75,44 @@
 //     let charCounts = {}
 //     //instead of for loop use for of
 //     for (let i = 0; i < str.length; i++) {
-            // is it better to lowercase everything?
+// is it better to lowercase everything?
 //         let char = str[i].toLowerCase()
-            // not sure how efficient this regex is, although useful, would mention in interview that not sure about time complexity
-            // instead we can use .charCodeAt(0) check if valid char code (time complexity is better)
+// not sure how efficient this regex is, although useful, would mention in interview that not sure about time complexity
+// instead we can use .charCodeAt(0) check if valid char code (time complexity is better)
 //         if(/[a-z0-9]/.test(char)){
-              // try to combine in single line
+// try to combine in single line
 //             if(charCounts[char] > 0) {
 //                 charCounts[char]++
-//             } 
+//             }
 //             else {
 //                 charCounts[char] = 1
-//             } 
+//             }
 //         }
-//     }           
+//     }
 //     return charCounts
 // }
 
 function charCount(str) {
   let charCounts = {}
   for (let char of str) {
-      if(isAlphaNumeric(char)){
-          char = char.toLowerCase()
-          charCounts[char] = ++charCounts[char] || 1
-      }
-  }           
+    if (isAlphaNumeric(char)) {
+      char = char.toLowerCase()
+      charCounts[char] = ++charCounts[char] || 1
+    }
+  }
   return charCounts
 }
 
 // function to use charCodeAt vs regex
 function isAlphaNumeric(char) {
   const code = char.charCodeAt(0)
-  if(!(code > 47 && code < 58) && //numeric (0-9)
-     !(code > 64 && code < 91) && // upper alpha (A-Z)
-     !(code > 96 && code < 123)) { // lower alpha (a-z)
-         return false
-     }
-     return true
+  if (
+    !(code > 47 && code < 58) && //numeric (0-9)
+    !(code > 64 && code < 91) && // upper alpha (A-Z)
+    !(code > 96 && code < 123)
+  ) {
+    // lower alpha (a-z)
+    return false
+  }
+  return true
 }

@@ -6,6 +6,7 @@ Big O of Arrays vs Objects
   - when you need fast access/insertion and removal (sort of..)
 
 # Big O of Arrays
+
 - Insertion --> depends
   - depends on where data is inserted
     - if on the end (.push) --> O(1)
@@ -18,6 +19,7 @@ Big O of Arrays vs Objects
 - Access --> O(1)
 
 # Big O of Array Methods
+
 - push --> O(1)
 - pop --> O(1)
 - shift --> O(n)
@@ -28,7 +30,7 @@ Big O of Arrays vs Objects
   - grows in proportion with the size of the copy we're trying to copy
 - splice --> O(n)
   - ex inserting at middle of array, or beginning, we have to re-index
-- sort --> O(n*log n)
-  - time to sort is larger than O(n) b/c comparing, inserting, looping 
+- sort --> O(n\*log n)
+  - time to sort is larger than O(n) b/c comparing, inserting, looping
 - forEach/map/filter/reduce/etc --> O(n)
   - loop over each element, so based on number of elements
