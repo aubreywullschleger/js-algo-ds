@@ -35,4 +35,4 @@ How do you improve?
   - very efficient for solving problems with minimal space complexity
     - have a linear structure, array, string, etc, we are searching for something that meets a condition
     - Example problem:
-      - see sumZero snippet (or ./multiple-pointers.js)
+      - see sumZero snippet (or ./multiple-pointers.js) and countingUniqueValues snippet (./countingUniqueValues.js)
