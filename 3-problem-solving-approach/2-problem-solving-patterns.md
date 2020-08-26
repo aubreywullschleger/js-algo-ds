@@ -27,12 +27,22 @@ How do you improve?
   - see Same snippet (or ./frequency-counter.js) and anagrams snippet (./anagrams.js)
 - Idea behind frequency counter - usually use an object to construct a profile/classify/a way of breaking down the contents of an array/string/linear structure and then able to compare that object to another object that was constructed from string/array, used when trying to compare/check if individual pieces of one array/string are in another array/string (or are squared, etc)
 
-
 ### Multiple Pointers
 
-  - no official name for it
-  - creating pointers or values that correspond to an index or position and move towards the beginning, end, or middle based on a certain condition
-  - very efficient for solving problems with minimal space complexity
-    - have a linear structure, array, string, etc, we are searching for something that meets a condition
-    - Example problem:
-      - see sumZero snippet (or ./multiple-pointers.js) and countingUniqueValues snippet (./countingUniqueValues.js)
+- no official name for it
+- creating pointers or values that correspond to an index or position and move towards the beginning, end, or middle based on a certain condition
+- very efficient for solving problems with minimal space complexity
+  - have a linear structure, array, string, etc, we are searching for something that meets a condition
+  - Example problem:
+    - see sumZero snippet (or ./multiple-pointers.js) and countingUniqueValues snippet (./countingUniqueValues.js)
+
+### Sliding Window
+
+- useful for keeping track of a subset of data in an array/string, etc.
+- useful when we have a set of data like array/string and we're looking for a subset of that data that is continuous in some way
+  - ex: find the longest sequence of unique characters in "hellothere"
+- This pattern involves creating a window which can either be an array or number from one position to another
+- depending on a certain condition, the window either increases or closes (and a new window is created)
+  - Example problem:
+    - see maxSubarraySum snippet or (./sliding-window.js)
+

@@ -1,5 +1,6 @@
 // Implement a funciton called countUniqueValues, which accepts a sorted array, and counts the unique values in the array. There can be negative numbers in the array, but it will always be sorted
 
+// O(n)
 function countUniqueValues(arr) {
   let leftIdx = 0
   let rightIdx = 1
@@ -17,7 +18,7 @@ function countUniqueValues(arr) {
   return uniqueValues
 }
 
-// // solution from course
+// // solution from course, O(n) time
 // function countUniqueValues(arr) {
 //   if (arr.length === 0) {
 //     return 0
