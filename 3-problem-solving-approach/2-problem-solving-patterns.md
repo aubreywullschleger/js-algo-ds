@@ -46,3 +46,12 @@ How do you improve?
   - Example problem:
     - see maxSubarraySum snippet or (./sliding-window.js)
 
+### Divide and Conquer
+
+- documented name
+- lots of divide and conquer in sorting algos and searching (merge and quick sort, and binary search, etc)
+- This pattern involves dividing a data set into smaller chunks and then repeating a process with a subset of data
+- this pattern can tremendously decrease time complexity
+- Example:
+  - classic example is binary search
+  - ./divide-and-conquer.js
