@@ -17,7 +17,7 @@ function maxSubarraySum(arr, num) {
   return max
 }
 
-// // Solution from course:
+// // Solution from course!:
 // function maxSubarraySum(arr, num){
 //   if (arr.length < num) return null;
 
