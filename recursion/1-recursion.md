@@ -26,3 +26,16 @@
   #### Why do I care
   - you're used to function being pushed on the call stack and popped off when they are done
   - when we write recursive functions, we keep pushing new functions onto the call stack (the same function over and over, waiting to be called)
+
+### How recursive functions work
+
+- Invoke the same function with a different input until you reach your base case
+
+  - Two things must be present
+    1. Function that calls itself with a different piece of data (different input)
+    2. Stopping point (base case)
+
+  #### Base Case
+
+  - The condition when the recursion end
+  - First recursive function, see `./countDown.js` or snippet
