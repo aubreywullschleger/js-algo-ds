@@ -37,5 +37,11 @@
 
   #### Base Case
 
-  - The condition when the recursion end
+  - The condition when the recursion ends
+
+  #### Examples
+
   - First recursive function, see `./countDown.js` or snippet
+  - Second recursive function, see `./sumRange.js` or snippet
+  - Factorial iteratively - see `./iterativeFactorial.js` or snippet
+  - Factorial recursively - see `./recursiveFactorial.js` or snippet
