@@ -45,3 +45,10 @@
   - Second recursive function, see `./sumRange.js` or snippet
   - Factorial iteratively - see `./iterativeFactorial.js` or snippet
   - Factorial recursively - see `./recursiveFactorial.js` or snippet
+
+### Recursion Pitfalls
+
+- No base case/wrong base case
+- Forgetting to return or returning at the wrong thing
+
+  - Both of the above can result in a stack overflow ("call stack size exceeded" error), recursion is not stopping
