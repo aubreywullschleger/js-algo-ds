@@ -20,3 +20,9 @@ function fib(n) {
 // the function returns the corresponding whole number in the sequence (same example as above, the 10th number in the fib sequence is 55, 55 is the number returned from the function)
 
 // parameter labeled n, will return a recursive function call
+
+// course solution:
+// function fib(n){
+//   if (n <= 2) return 1;
+//   return fib(n-1) + fib(n-2);
+// }
